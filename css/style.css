@@ -1,0 +1,124 @@
+/* При работе с CSS должно быть продемонстрировано использование селекторов дочерних элементов,
+ , Индефикатор, селекторов атрибутов!, селекторов псевдоэлементов! а также такие свойства стилей CSS, 
+как наследование и каскадирование */
+
+
+/* Дочерний */
+h1:first-child{
+   /* font-weight:  bold; */
+   color: brown;
+}
+
+/* Каскадирование */
+#list {
+    width: 97%;
+    margin: 5%;
+}
+#list {
+    width: 97%;
+    margin: auto;
+    background-color: #668921;
+}
+
+/* идентификатор */
+#SubmitButton {
+    text-align: center;
+}
+
+
+/* Атрибут */
+button[type="submit"]{
+    color: black;
+    background-color: rgb(24, 165, 62);
+    border: 1.5px solid black;
+    border-radius: 2px;
+}
+
+
+/* Псевдоэлемент */
+.submit_btn:after{
+    content:' ✔';
+}
+
+/* Наследование */
+#hedder {
+    color: brown;
+    text-align: center;
+    height: 88px;
+    outline: 1px solid #f00;
+    margin: auto;
+    font: sans-serif;
+    font-size: 35px;
+    text-decoration: wavy;
+    text-align: center;
+}
+
+#menu {
+    background: #40E0D0;
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+#graph {
+    background: #DCDCDC;
+    float: right;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+}
+
+#table {
+    background: #0f8124;
+}
+
+.validate_form {
+    text-align: center;
+}
+
+.columns {
+    width: 10%;
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+
+
+
+#submit_btn{
+    text-align: center;
+
+}
+
+#reset_btn{
+    text-align: center;
+
+}
+
+button.chosen {
+    background-color: rgb(17, 0, 255);
+}
+
+
+
+
+
+.reset_btn:after{
+    content:' ✖';
+}
+
+
+#form {
+    
+    border: 10px solid #59AFFF;
+    border-image: linear-gradient(93deg, #ff0000 , #0800ff) 1;
+}
+
+input[type=checkbox]
+{
+  transform: scale(2);
+  padding: 10px;
+}

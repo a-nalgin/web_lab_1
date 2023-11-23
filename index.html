@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <title>LAB-1-WEB</title>
+</head>
+
+<body >
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script src="js/old_script.js" async defer ></script>
+
+<div id="list">
+
+    <div id="hedder">
+        <div id="text_hedder">
+            Buzinov Daniil Alekseevich P3222<br>
+            Variant 3275
+        </div>
+    </div>
+
+    <div id="menu">
+        <form id="form" class="validate_form" method="post">
+
+            <div id="FormForX" >
+               <h1>X:</h1><b>Х:</b><br>
+                <button id="buttonX1" class="x_value_class" type="button" name="x_value_name" value="-4">-4</button>
+                <button id="buttonX2" class="x_value_class" type="button" name="x_value_name" value="-3">-3</button>
+                <button id="buttonX3" class="x_value_class" type="button" name="x_value_name" value="-2">-2</button>
+                <button id="buttonX4" class="x_value_class" type="button" name="x_value_name" value="-1">-1</button>
+                <button id="buttonX5" class="x_value_class" type="button" name="x_value_name" value="0" >0</button>
+                <button id="buttonX6" class="x_value_class" type="button" name="x_value_name" value="1" >1</button>
+                <button id="buttonX7" class="x_value_class" type="button" name="x_value_name" value="2" >2</button>
+                <button id="buttonX8" class="x_value_class" type="button" name="x_value_name" value="3" >3</button>
+                <button id="buttonX9" class="x_value_class" type="button" name="x_value_name" value="4" >4</button>
+            </div><br>
+
+            <div id="FormForY">
+                <h1>Y:</h1><b>Y:</b><br>
+                <input type="text" name="y_value_name" class="y_value_class" placeholder="-5 ... 5 ">
+            </div><br>
+            
+            <div id="FormForR" class="R_value_class_group">
+                <h1>R:</h1><b>R:</b><br>
+                <input id="buttonR1" class="R_value_class" type="checkbox" name="R_value_name" value="1"> <label for="buttonR1">1</label>
+                <input id="buttonR2" class="R_value_class" type="checkbox" name="R_value_name" value="2"> <label for="buttonR2">2</label>
+                <input id="buttonR3" class="R_value_class" type="checkbox" name="R_value_name" value="3"> <label for="buttonR3">3</label>
+                <input id="buttonR4" class="R_value_class" type="checkbox" name="R_value_name" value="4"> <label for="buttonR4">4</label>
+                <input id="buttonR5" class="R_value_class" type="checkbox" name="R_value_name" value="5"> <label for="buttonR5">5</label>        
+            </div><br>
+
+            <div id="SubmitButton">
+                <button type="submit" name="submit" class="submit_btn" id="submit_btn">Submit</button>
+                <br><br>
+                
+                
+            </div>
+        </form>
+        <div id="SubmitButton">
+        <button type="reset_btn" name="reset_btn" class="reset_btn" id="reset_btn">Reset</button>
+        </div>
+
+    </div>
+
+    
+
+    <div id="graph">
+        <img id="img" src="img/graph.png" alt="жопа кака" width=500px height=400px>
+    </div>
+
+    
+
+    <!-- <div id="ResulTtable" class="result">
+        <button type="reset_btn" name="reset_btn" class="reset_btn" id="reset_btn">Reset</button>
+
+        <table id="result_table" class="results">
+            <thead >
+                <th class="columns">X</th>
+                <th class="columns">Y</th>
+                <th class="columns">R</th>
+                <th class="columns">RES</th>
+                <th class="columns">current time</th>
+                <th class="columns">execution time</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div> -->
+
+</div>
+</body>
